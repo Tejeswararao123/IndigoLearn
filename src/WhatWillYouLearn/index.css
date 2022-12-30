@@ -1,0 +1,41 @@
+.wwlcards {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.wwlcard {
+  border-radius: 3px;
+  background-color: rgb(19, 19, 68);
+  background-color: rgb(221, 234, 247);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 300px;
+  margin-right: 20px;
+  padding-bottom: 0px;
+}
+.headandbottom {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  background-color: rgb(24, 24, 95);
+  color: 'white';
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding: 5px;
+}
+.placementcard {
+  background-color: rgb(244, 225, 250);
+  padding: 20px;
+  margin: 20px;
+}
+@media all and (max-width: 600px) {
+  .wwlcards {
+    flex-direction: column;
+  }
+  .wwlcard {
+    margin-top: 10px;
+  }
+}

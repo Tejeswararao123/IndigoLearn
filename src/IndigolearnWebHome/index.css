@@ -1,0 +1,151 @@
+p {
+  padding-right: 20px;
+}
+.aboutandapply {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.aboutboxes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-width: 1px;
+  border-bottom: 2px;
+  border-style: solid;
+  border-color: rgb(65, 65, 243);
+  border-radius: 10px;
+  margin-right: 10px;
+}
+.downloadbutton {
+  background-color: rgb(25, 43, 121);
+  color: white;
+  padding: 8px;
+  font-size: 17px;
+  margin-top: 10px;
+  border-width: 0px;
+  border-radius: 6px;
+  outline: none;
+  margin-right: 13px;
+  cursor: pointer;
+}
+.downloadbuttonb {
+  background-color: rgb(25, 43, 121);
+  color: white;
+  padding: 8px;
+  font-size: 17px;
+  margin-top: 10px;
+  border-width: 0px;
+  border-radius: 6px;
+  outline: none;
+  margin-right: 13px;
+  cursor: pointer;
+}
+.selflearningbutton {
+  background-color: rgb(197, 23, 23);
+  color: white;
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 17px;
+  margin-top: 10px;
+  border-width: 0px;
+  margin-right: 13px;
+  border-width: 0px;
+  border-radius: 6px;
+  outline: none;
+  cursor: pointer;
+}
+.applicationform {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+input {
+  margin-bottom: 10px;
+  padding: 6px;
+}
+select {
+  margin-bottom: 10px;
+  padding: 6px;
+}
+
+.card {
+  border-radius: 6px;
+  border-color: rgb(28, 11, 182);
+  border-style: solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 270x;
+  width: 220px;
+  margin-right: 20px;
+}
+.image {
+  height: 90px;
+}
+.aboutcoursecard {
+  border-radius: 5px;
+  border-color: rgb(87, 87, 221);
+  border-style: solid;
+  border-width: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top-width: 2px;
+  height: 100px;
+  width: 280px;
+  margin-right: 20px;
+  margin-top: 10px;
+  box-shadow: 0px 2px 1px 1px rgb(115, 115, 119);
+  margin-bottom: 30px;
+}
+.flexrow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.wwlcard {
+  border-radius: 3px;
+  background-color: rgb(19, 19, 68);
+  background-color: rgb(221, 234, 247);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 300px;
+  margin-right: 20px;
+  padding-bottom: 0px;
+}
+.headandbottom {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  background-color: rgb(24, 24, 95);
+  color: 'white';
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding: 5px;
+}
+.placementcard {
+  background-color: rgb(244, 225, 250);
+  padding: 20px;
+  margin: 20px;
+}
+.bottombox {
+  background-color: rgb(188, 221, 235);
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+@media all and (max-width: 600px) {
+  .bottombox {
+    display: flex;
+    flex-direction: column;
+  }
+}

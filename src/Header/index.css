@@ -1,0 +1,21 @@
+.navrow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.navbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(18, 18, 97);
+  color: white;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.navlinks:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+p {
+  padding-right: 20px;
+}

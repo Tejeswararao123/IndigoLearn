@@ -1,0 +1,41 @@
+.whychoosecards {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.card {
+  border-radius: 6px;
+  border-color: rgb(28, 11, 182);
+  border-style: solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 270x;
+  width: 220px;
+  margin-right: 20px;
+}
+.image {
+  height: 90px;
+}
+.coursestatisticks {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+@media all and (max-width: 600px) {
+  .coursestatisticks {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .whychoosecards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .card {
+    width: 80%;
+    margin-top: 10px;
+  }
+}

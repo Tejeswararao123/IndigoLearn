@@ -1,0 +1,52 @@
+p {
+  padding-right: 20px;
+}
+
+.aboutandapply {
+  padding-left: 10%;
+  padding-right: 10%;
+  display: flex;
+  flex-direction: row;
+}
+.flexrow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.aboutboxes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-width: 1px;
+  border-bottom: 2px;
+  border-style: solid;
+  border-color: rgb(65, 65, 243);
+  border-radius: 10px;
+  margin-right: 10px;
+}
+.onlyformobile {
+  display: none;
+}
+@media all and (max-width: 650px) {
+  .aboutandapply {
+    display: flex;
+    flex-direction: column;
+  }
+  .statisticks {
+    flex-wrap: wrap;
+  }
+  .aboutboxes {
+    margin-top: 10px;
+  }
+  .onlyforwindow {
+    display: none;
+  }
+  .onlyformobile {
+    display: block;
+  }
+  .aboutcoursecard {
+    height: 100px;
+    width: 130px;
+  }
+}

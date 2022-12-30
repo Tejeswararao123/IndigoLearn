@@ -1,0 +1,23 @@
+.downloadbutton {
+  background-color: rgb(25, 43, 121);
+  color: white;
+  padding: 8px;
+  font-size: 17px;
+  margin-top: 10px;
+  border-width: 0px;
+  border-radius: 6px;
+  outline: none;
+  margin-right: 13px;
+  cursor: pointer;
+  width: 100%;
+}
+.popup {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.close {
+  background-color: green;
+  color: white;
+  border-width: 0px;
+}
